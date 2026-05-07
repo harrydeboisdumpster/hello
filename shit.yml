@@ -1,0 +1,10 @@
+trigger: none
+pr:
+  drafts: true
+  branches:
+    include:
+    - main
+pool:
+  vmImage: ubuntu-latest
+steps:
+- script: echo "PR validation"
